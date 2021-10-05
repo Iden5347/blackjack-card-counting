@@ -55,6 +55,7 @@ int main() {
   cout << numOfDecks <<endl  << allowDas << allowEarlySurrender << allowLateSurrender << allowResplitAces << allowResplitPairs << allowDoubleOnAll << standOnSoftSeventeen  << blackjackPayout << endl;
 
 
+
   vector<int> deck(52 * numOfDecks, 0);
   shuffleDeck(&deck, numOfDecks);
   vectorPrint(deck);
