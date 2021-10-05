@@ -52,7 +52,7 @@ int main() {
   cout << "standOnSoftSeventeen: ";
   cin >> blackjackPayout;
 
-  cout << numOfDecks << allowDas <<endl << allowEarlySurrender << allowLateSurrender << allowResplitAces << allowResplitPairs << allowDoubleOnAll << standOnSoftSeventeen  << blackjackPayout << endl;
+  cout << numOfDecks <<endl  << allowDas << allowEarlySurrender << allowLateSurrender << allowResplitAces << allowResplitPairs << allowDoubleOnAll << standOnSoftSeventeen  << blackjackPayout << endl;
 
 
   vector<int> deck(52 * numOfDecks, 0);
